@@ -23,8 +23,7 @@
     z-index: 1;
     top: 34px;
     height: 28px;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg)
-      scale(1.4);
+    transform: perspective(2000px) rotateZ(300deg) rotateX(44deg) rotateY(39deg) scale(1.4);
   }
 
   .vite {
@@ -32,8 +31,7 @@
     top: 107px;
     height: 26px;
     width: auto;
-    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg)
-      scale(0.8);
+    transform: perspective(2000px) rotateZ(300deg) rotateX(40deg) rotateY(39deg) scale(0.8);
   }
 }
 
@@ -56,9 +54,10 @@
   border-top: 1px solid var(--border);
   text-align: left;
 
-  & > div {
+  &>div {
     flex: 1 1 0;
     padding: 32px;
+
     @media (max-width: 1024px) {
       padding: 24px 20px;
     }
@@ -111,6 +110,7 @@
     &:hover {
       box-shadow: var(--shadow);
     }
+
     .button-icon {
       height: 18px;
       width: 18px;
@@ -137,6 +137,7 @@
 #spacer {
   height: 88px;
   border-top: 1px solid var(--border);
+
   @media (max-width: 1024px) {
     height: 48px;
   }
@@ -183,4 +184,37 @@
 .contact-divider {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.15);
+}
+
+.skills {
+  margin-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+  padding-top: 2rem;
+}
+
+.skill-row {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.skill-label {
+  color: rgba(255, 255, 255, 0.25);
+  min-width: 90px;
+  flex-shrink: 0;
+}
+
+.skill-items {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.currently {
+  margin-top: 2.5rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.25);
+  font-style: italic;
 }
