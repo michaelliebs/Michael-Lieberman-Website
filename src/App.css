@@ -141,3 +141,23 @@
     height: 48px;
   }
 }
+
+.content {
+  padding-top: 80px;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-inline: 2rem;
+}
+
+.intro {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1rem;
+}
+
+.about-me {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.5);
+}
