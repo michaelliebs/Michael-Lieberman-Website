@@ -8,6 +8,17 @@ export default function Home() {
         about creating scalable, user-focused solutions and continuously
         improving through real-world projects. Open to working!
       </p>
+
+      <div className="contact">
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="contact-link">
+          resume
+        </a>
+        <span className="contact-divider">/</span>
+        <a href="mailto:michaellieberman44@gmail.com" className="contact-link">
+          michaellieberman44@gmail.com
+        </a>
+      </div>
+
     </main>
   )
 }
